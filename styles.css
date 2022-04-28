@@ -16,12 +16,12 @@ main{
      text-align: center ;
 }
 
-li{
-    list-style:lower-greek;
+h1,h2,h3{
+    text-decoration: underline;
 }
 
-q{
-    position: sticky;
+li{
+    list-style:lower-greek;
 }
 
 .container {
@@ -49,6 +49,14 @@ q{
   table{
       width: 50%;
      margin: auto; 
+     border: 5px dashed darkblue;
+     
+  }
+
+  tr :hover {
+      border:1px solid orangered;
+      cursor: pointer;
+ 
   }
 
  #quote {
@@ -67,3 +75,5 @@ q{
    border: 2px dotted tomato;
 
 }
+
+
