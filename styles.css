@@ -60,11 +60,9 @@ li{
   }
 
  #quote {
-     position:relative;
-     right:50rem;
-     position:fixed;
+     position:sticky;
+     top:10px;
      background-color: rgba(255, 255, 0, 0.644);
-
  }
 
 .characters{
