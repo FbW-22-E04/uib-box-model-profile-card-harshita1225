@@ -1,0 +1,77 @@
+body{
+
+    background-color: lightblue;
+    padding: 0;
+    margin:0;
+    color: darkblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+
+}
+
+main{
+    border: 10px solid white;
+     margin: 0 auto;
+     width: 50%;
+     text-align: center ;
+}
+
+h1,h2,h3{
+    text-decoration: underline;
+}
+
+li{
+    list-style:lower-greek;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    font-size: x-large;
+
+  }
+
+  .top {
+    position: absolute;
+    top:10px;
+    left:270px;
+    border-radius: 10%;
+    background-color:orange;
+    
+  }
+  .bottom {
+    position: absolute;
+    top:40px;
+    left: 370px;
+  border-radius: 20%;
+  background-color:orange;}
+
+  table{
+      width: 50%;
+     margin: auto; 
+     border: 5px dashed darkblue;
+     
+  }
+
+  tr :hover {
+      border:1px solid orangered;
+      cursor: pointer;
+ 
+  }
+
+ #quote {
+     position:sticky;
+     top:10px;
+     background-color: rgba(255, 255, 0, 0.644);
+ }
+
+.characters{
+
+    background-image: url("https://cdn001.tintin.com/public/tintin/img/shared/header/logo-tintin-120_v2.png");
+   background-size: 5rem;
+   background-repeat: repeat;
+   border: 2px dotted tomato;
+
+}
+
+
